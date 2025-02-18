@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+h1 {
+    color: rgba(50, 216, 100, 0.704);
+    font-family: Poppins;
+}
+
+
+.otp-box {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-bottom: 2px solid rgba(50, 216, 100, 0.704);
+    width: 10rem;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(50, 216, 100, 0.704);
+    color: white;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    width: 20rem;
+}
+
+#copy-otp {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.notification {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
